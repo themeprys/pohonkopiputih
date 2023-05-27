@@ -1,0 +1,121 @@
+#head {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#999;
+			color:#000;
+			padding: 15px;
+}
+
+#multi-column {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#fff;
+			color:#000;
+			font-size:11px;
+			text-align:justify;
+			line-height:18px;
+			letter-spacing:0.2px;
+			/* For Mozilla: */
+			-moz-column-gap: 2em;
+			-moz-column-rule: 1px solid #666;
+			-moz-column-count: 2;
+			/* For WebKit: */
+			-webkit-column-gap: 2em;
+			-webkitcolumn-rule: 1px solid #666;
+			-webkit-column-count: 2;
+			padding: 15px;
+		}
+#headb {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#999;
+			color:#000;
+			padding: 15px;
+}
+
+#headc {
+			background-color:#666;
+			color:#fff;
+			padding: 15px;
+}
+
+#multi-columnb {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#fff;
+			color:#000;
+			font-size:11px;
+			text-align:justify;
+			line-height:18px;
+			letter-spacing:0.2px;
+			/* For Mozilla: */
+			-moz-column-gap: 2em;
+			-moz-column-rule: 1px solid #666;
+			-moz-column-count: 2;
+			/* For WebKit: */
+			-webkit-column-gap: 2em;
+			-webkitcolumn-rule: 1px solid #666;
+			-webkit-column-count: 2;
+			padding: 15px;
+		}
+
+
+#single-columnb {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color: #fff;
+			color:#000;
+			font-size:11px;
+			text-align:justify;
+			line-height:18px;
+			letter-spacing:0.2px;
+			/* For Mozilla: */
+			-moz-column-gap: 2em;
+			-moz-column-rule: 1px solid #666;
+			-moz-column-count: 1;
+			/* For WebKit: */
+			-webkit-column-gap: 2em;
+			-webkitcolumn-rule: 1px solid #666;
+			-webkit-column-count: 1;
+			padding: 15px;
+		}
+
+#multi-columnc {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#666;
+			color:#fff;
+			font-size:11px;
+			text-align:justify;
+			line-height:18px;
+			letter-spacing:0.2px;
+			/* For Mozilla: */
+			-moz-column-gap: 2em;
+			-moz-column-rule: 1px solid #fff;
+			-moz-column-count: 2;
+			/* For WebKit: */
+			-webkit-column-gap: 2em;
+			-webkitcolumn-rule: 1px solid #fff;
+			-webkit-column-count: 2;
+			padding: 15px;
+		}
+
+#single-columnc {
+			-moz-border-radius: 25px; 
+			-webkit-border-radius: 25px;
+			background-color:#666;
+			color:#fff;
+			font-size:11px;
+			text-align:justify;
+			line-height:18px;
+			letter-spacing:0.2px;
+			/* For Mozilla: */
+			-moz-column-gap: 2em;
+			-moz-column-rule: 1px solid #666;
+			-moz-column-count: 1;
+			/* For WebKit: */
+			-webkit-column-gap: 2em;
+			-webkitcolumn-rule: 1px solid #666;
+			-webkit-column-count: 1;
+			padding: 15px;
+		}

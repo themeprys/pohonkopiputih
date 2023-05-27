@@ -1,0 +1,7 @@
+	.node {
+		margin-left: 0px;
+		color: #ff0000;
+		font-weight: bolder;
+		font-style: italic;
+		height: expression(0); /* IE only */		
+	}

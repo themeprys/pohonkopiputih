@@ -1,0 +1,120 @@
+StyleSheet
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 23000px;
+	overflow: hidden;
+}
+#ie6 {
+display: none;
+}
+img {
+outline: none;
+}
+.container {
+float: left;
+display: block;
+height: 1000px;
+width: 2000px;
+position: relative;
+}
+.alt {
+color: white;
+}
+.interior {
+width: 950px;
+}
+.back, .next {
+position: absolute;
+width: 46px;
+height: 17px;
+}
+.home {
+position: absolute;
+width: 46px;
+height: 7px;
+}
+#home {
+background: #FFF url('bg-home.gif') no-repeat top left;
+}
+#home .interior {
+padding-top: 175px;
+padding-left: 170px;
+}
+#home img {
+float: left;
+margin-right: 23px;
+}
+#work {
+background: #FFF url('bg-home.gif') no-repeat top left;
+}
+#worktoconnect {
+background: #FFF url('bg-home.gif') no-repeat top left;
+}
+#connect {
+background: #FFF url('bg-connect.gif') no-repeat top left;
+font-size: 20px;
+}
+#work .back {
+top: 280px;
+left: 10px;
+}
+.column {
+float: left;
+width: 250px;
+margin-right: 25px;
+}
+#work .interior {
+padding: 40px 90px;
+}
+#work .next {
+top: 280px;
+left: 600px;
+}
+#connect .interior {
+padding: 130px 155px;
+}
+#connect .column {
+width: 230px;
+}
+#connect .back {
+top:205px;
+left: 400px;
+}
+.column.right {
+margin-top: -60px;
+}
+#Pagination {
+position: relative;
+float: left;
+display: block;
+width: 590px;
+height: 30px;
+}
+#Pagination .next, #Pagination .prev {
+position: absolute;
+top: 0 !important;
+width: 80px;
+text-align: center;
+display: block;
+font-size: 12px;
+font-weight:  bold;
+padding: 5px;
+height: 15px;
+}
+#Pagination span {
+background: #888;
+color: black;
+}
+#Pagination .next {
+left: 485px;
+}
+#Pagination .prev {
+left: 25px;
+}

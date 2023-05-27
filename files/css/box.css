@@ -1,0 +1,18 @@
+ul  {background-color:.#666;padding-top:0px; padding-bottom: 0px; border: 0px solid #ff0000; text-align:center;}
+li  {background-color:.#333;border: 0px solid #333;text-align:center;cursor:se-resize;}
+ul::selection
+{
+background:#fff;color:#000;
+}
+ul::-moz-selection
+{
+background:#fff;color:#000;
+}
+li::selection
+{
+background:#fff;color:#000;
+}
+li::-moz-selection
+{
+background:#fff;color:#000;
+}

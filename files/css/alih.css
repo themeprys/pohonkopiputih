@@ -1,0 +1,21 @@
+body {
+   color: white;
+   background: black;
+   font: bold 18pt Verdana, Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+div.counter {
+   margin-top: 20px;
+   color: blue;
+   font-size: 40pt;
+   cursor: default;
+}
+
+div.info {
+   margin: 0 auto;
+   text-align: left;
+   font-size: smaller;
+   width: 80%;
+   margin-top: 2em;
+}

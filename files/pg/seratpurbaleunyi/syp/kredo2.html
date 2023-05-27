@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Sayap Labirin :: KREDO</title>
+<!-- 
+SAYAP LABIRIN - Siberproust Tera - Agustus 2009
+Cybersastra Indonesia
+-->
+<style type="text/css">
+<!--
+body	{ background-color:#000000; color:blue; overflow:hidden }
+#skipDiv	{position:absolute; visibility:hidden; width:80px; }
+#skipDiv a:link, #skipDiv a:visited	{ 
+	font-family: verdana, arial, helvetica, sans-serif;
+  font-size:10pt; color:#000099; }
+
+#wipeDiv1	{ position:absolute; visibility:hidden; left:0px; top:0px; 
+	width:1px; height:1px; z-index:1; }
+	
+/* Classes for formatting the wipe text content. 
+	 Wipe class is used in doWipes function. It's the only
+	 one needed if all your text is formatted the same. */
+.wipe { color:#dee7f7; 
+	font-family: verdana, arial, helvetica, sans-serif; }	
+/* If you don't need different sizes, just put a size in
+	 the one above (.wipe) and delete unused classes */	
+.wipe1	{ font-size:36pt; }	
+.wipe2	{ font-size:22pt; }
+.wipe3	{ font-size:18pt; }
+	
+	
+-->
+</style>
+<script src="wipes.js" language="javascript" type="text/javascript"></script>
+<script src="kredo2.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<div id="wipeDiv1"></div>
+<div id="skipDiv">
+	<a id="skipLnk" href="javascript:setDest()">>>>>&nbsp;</a>
+</div>
+</body>
+</html>

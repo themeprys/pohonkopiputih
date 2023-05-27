@@ -1,0 +1,13 @@
+	body {cursor:url("../CRCROSS.cur");margin:0; padding:0; position:absolute; overflow:hidden; background:#000; left:0; top:0; width:100%; height:100%;}
+	span {
+		COLOR: #ffffff;
+		FONT-FAMILY: verdana;
+		FONT-SIZE: 9pt;
+		FONT-WEIGHT: normal;
+		POSITION: relative;
+	}
+	a {
+		text-decoration:none;
+		color:#FF8000;
+	}
+	.G1D {background:#111111;border:#333 solid 1px;position:absolute;left:-130;top:-130;width:290;height:350;text-align:justify;}

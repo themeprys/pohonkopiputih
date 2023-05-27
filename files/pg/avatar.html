@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Avatar</title>
+	<style>
+		.tabbox { position: relative; top: 0; left: 0; width: 100px; height: 220px; }
+		.tabbox h2 { position: relative; margin: 0; padding: 0; width: 150px; border: solid #000; border-width: 1px 0 0 1px; z-index: 2; }
+		.tabbox .last h2 { border-bottom-width: 1px; }		
+		.tabbox h2 a { display: block; padding: 5px; margin: 0 1px 0 0; font-size: 14px; color: #000; text-decoration: none; }
+		.tabbox h2 a:hover { background: #FFC; }		
+		.tabbox .tabpanel { position: absolute; top: 0; left: 150px; width: 300px; height: 250px; padding: 7px; background: #999; border: 1px solid #000; border-top: 1px solid #000; z-index: 1; display: none; }		
+		.tabbox .selected .tabpanel { display: block; overflow: auto; }
+		.tabbox .selected h2 a { background: #999; margin: 0; cursor: default; }		
+	</style>
+</head>
+<body>
+<div class="tabbox">
+	<div class="selected">
+		<h2>
+			<a href="#tab_one" name="tab_one" onclick="return changeTab(this)" onfocus="return changeTab(this)">
+				Presiden KOPI</a>
+		</h2>
+		<div class="tabpanel">
+			Section One Content:
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+		</div>
+	</div>
+	
+	<div>
+		<h2>
+			<a href="#tab_two" name="tab_two" onclick="return changeTab(this)" onfocus="return changeTab(this)">
+				Info</a>
+		</h2>
+		<div class="tabpanel">
+			Section Two Content:
+			<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		</div>
+	</div>
+
+	</div>
+	
+</div>
+</body>
+</html>
